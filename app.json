@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "engine",
+      "pages": [],
+      "plugins": {
+        "SPAREngine": {
+          "version": "2.2.2",
+          "provider": "wxd30c5bb763657005"
+        }
+      }
+    },
+    {
+      "root": "easyarcore",
+      "pages": [],
+      "plugins": {
+        "easyar-core": {
+          "version": "1.1.0",
+          "provider": "wx6dcdfd3e88bfde56"
+        }
+      }
+    },
+    {
+      "root": "clsvk",
+      "pages": [
+        "clsvk_pc/clsvk",
+        "vk-pc/vk-pc"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "SPARPlugin": {
+      "version": "2.6.2",
+      "provider": "wx513725758120fb69"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
