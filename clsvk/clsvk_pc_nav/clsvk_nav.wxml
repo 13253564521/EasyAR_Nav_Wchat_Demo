@@ -12,7 +12,7 @@
     bind:loadCamera="onLoadCamera"
     bind:result="onClsClientResult" 
     bind:error="onClsClientError" 
-    debug="{{debug}}" 
+    debug="{{true}}" 
     running="{{running}}" 
     minInterval="{{minInterval}}"
     multiMapSetting="{{multiMapSetting}}"

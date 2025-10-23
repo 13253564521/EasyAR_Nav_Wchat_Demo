@@ -8,7 +8,7 @@
       "pages": [],
       "plugins": {
         "SPAREngine": {
-          "version": "2.2.2",
+          "version": "2.3.0",
           "provider": "wxd30c5bb763657005"
         }
       }
@@ -27,6 +27,7 @@
       "root": "clsvk",
       "pages": [
         "clsvk_pc/clsvk",
+        "clsvk_pc_nav/clsvk_nav",
         "vk-pc/vk-pc"
       ]
     }
@@ -39,7 +40,7 @@
   },
   "plugins": {
     "SPARPlugin": {
-      "version": "2.6.2",
+      "version": "2.6.3",
       "provider": "wx513725758120fb69"
     }
   },
